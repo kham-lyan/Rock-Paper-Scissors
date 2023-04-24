@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rock Paper Scissor</title>
+
+	<link rel="stylesheet" href="style.css">
+	<script src="app.js" defer></script>
+
+</head>
+<body>
+	<div class="container">
+
+		<!-- Game Start Menu -->
+		<div class="game-menu">
+			<h1>Rock Paper Scissor</h1>
+			<button class="play">
+				<img src="img/play-button-arrowhead.png" alt="play">
+				Play
+			</button>
+		</div>
+
+		<!-- Main Game -->
+		<div class="game">
+
+			<!-- Score Board -->
+			<div class="scoreboard">
+				<div>
+					<h2 class="userScore">Player : 00</h2>
+				</div>
+				<div>
+					<h2 class="botScore">Computer : 00</h2>
+				</div>
+			</div>
+
+			<!-- Choices -->
+			<div class="choices">
+				<div>
+					<img class="userPickResult" src="img/r.png" alt="">
+				</div>
+				<div>
+					<img class="botPickResult" src="img/r.png" alt="">
+				</div>
+			</div>
+
+			<!-- Display Result -->
+			<div class="result">
+				<p class="resultDisplay">
+				</p>
+			</div>
+
+			<!-- User Pick -->
+			<div class="userPick">
+				<button id="rock">
+					<img src="img/r.png" alt=""><br>
+					Rock
+				</button>
+				<button id="paper">
+					<img src="img/p.png" alt=""><br>
+					Paper
+				</button>
+				<button id="scissors">
+					<img src="img/s.png" alt=""><br>
+					Scissor
+				</button>
+			</div>
+
+		</div>
+
+		<!-- Game Over -->
+		<div class="gameOver">
+			<h2 class="gameResult"></h2>
+			<button class="replay">
+				<img src="img/undo.png" alt="">
+				Replay
+			</button>
+		</div>
+
+	</div>
+</body>
+</html>
